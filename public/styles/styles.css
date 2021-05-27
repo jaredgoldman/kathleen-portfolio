@@ -1,0 +1,22 @@
+body {
+  /* background-image: url('public/images/kate/kate2.jpeg'); */
+  background-image: linear-gradient(honeydew, #befaf6);
+  padding-bottom: 2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: #fab0b0;
+  height: 1px;
+}
+
+/*# sourceMappingURL=styles.css.map */

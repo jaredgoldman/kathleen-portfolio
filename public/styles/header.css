@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 7em;
+  color: #fab0b0;
+  font-family: "Poiret One", cursive;
+  border-bottom: 1px solid #fab0b0;
+}
+
+.header-name {
+  padding-left: .5em;
+  font-size: 4em;
+}
+
+.icons {
+  padding-right: 3em;
+  padding-top: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.icon-insta {
+  width: 1.5em;
+  height: 1.5em;
+  padding: .5em;
+}
+
+.icon-mail {
+  width: 2em;
+  height: 2em;
+  padding: .5em;
+}
+
+@media screen and (max-width: 700px) {
+
+  header {
+    height: 2em;
+    margin-bottom: .2em;
+  }
+  
+  .header-name {
+    padding-left: .3em;
+    font-size: 1.3em;
+  }
+
+  .icons {
+    padding-right: 1em;
+    padding-top: .5em;
+  }
+  
+  .icon-insta {
+    width: .8em;
+    height: .8em;
+    padding: .2em;
+  }
+  
+  .icon-mail {
+    width: 1em;
+    height: 1em;
+    padding: .2em;
+  }
+  
+}
